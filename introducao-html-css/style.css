@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main, header#header_principal, footer {
+    margin: 10px auto;
+    max-width: 1024px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#header_principal {
+    background-color: rgb(58, 58, 58);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#title {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+main {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+main a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: rgb(83, 83, 83);
+    text-decoration: underline;
+}
+
+.subtitle {
+    background-color: rgb(212, 212, 212);
+    padding: 10px;
+}
+.subtitle, .post_title {
+    color: rgb(66, 66, 66);
+}
+.post_title {
+    font-size: 22px;
+    font-style: italic;
+}
+
+article img {
+    margin: 10px 10px 10px 0;
+    width: 49%;
+}
+article p {
+    width: 50%;
+}
+.post {
+     border: 1px solid rgb(194, 194, 194);
+    padding: 10px;
+    margin: 10px 0;
+    text-align: justify;
+}
+.postagem {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post_content {
+    margin-top: 10px;
+    
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+    line-height: 30px;
+    padding: 5px 10px;
+    justify-content: space-between;
+    vertical-align: middle;
+    
+}
+
+footer li {
+    align-items: center;
+    line-height: 30px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
