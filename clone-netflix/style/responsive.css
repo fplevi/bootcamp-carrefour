@@ -20,4 +20,8 @@
         display: block !important;
     }
 
+    .filme-info {
+        display: none;
+    }
+
   }

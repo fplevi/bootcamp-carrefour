@@ -3,11 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
-    --cor1:#F20C1F;
-    --cor2:#A60815;
-    --cor3:#0D0102;
-    --cor4:#F20C36;
-    --cor5:#A60825;
+    --cor1:#F2B705;
+    --cor2:#F2E96B;
+    --cor3:#252625;
+    --cor4:#F29F05;
+    --cor5:#BF6B04;
     --cor6:#ccc;
     --font-padrao:'Open Sans', sans-serif;
     --font-destaque:'Bebas Neue', cursive;
@@ -47,35 +47,42 @@ header .container_logo {
 header .container_logo .n {
     font-size: 4.8rem;
     transform: skewY(-10deg);
+    transition: 1s ease all;
 }
 
 header .container_logo .e {
     font-size: 4.6rem;
     transform: skewY(-5deg);
+    transition: 1.2s ease all;
 }
 
 header .container_logo .t {
     font-size: 4.5rem;
     transform: skewY(-2.5deg);
+    transition: 1.4s ease all;
 }
 
 header .container_logo .f {
     font-size: 4.5rem;
+    transition: 1.6s ease all;
 }
 
 header .container_logo .l {
     font-size: 4.5rem;
     transform: skewY(2.5deg);
+    transition: 1.8s ease all;
 }
 
 header .container_logo .i {
     font-size: 4.6rem;
     transform: skewY(5deg);
+    transition: 2s ease all;
 }
 
 header .container_logo .x {
     font-size: 4.8rem;
     transform: skewY(10deg);
+    transition: 2.2s ease all;
 }
 
 header .container_logo > h2 {
@@ -134,7 +141,7 @@ section.filme-principal {
     width: 40%
 }
 .filme-principal {
-    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.25)), url("../img/house-of-cards-capa.jpg") no-repeat top center/cover;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.25)), url("../img/code-html-5-capa.jpg") no-repeat top center/cover;
     min-height:400px;
 }
 
@@ -162,14 +169,14 @@ section.filme-principal {
 }
 
 .primary {
-    background-color: var(--cor6);
-    border: 1px solid var(--cor6);
+    background-color: var(--cor4);
+    border: 1px solid var(--cor5);
     color: var(--cor3);
     cursor: pointer;
 }
 
 .primary:hover {
-    background-color: white;
+    background-color: var(--cor1);
 }
 
 .secondary {
@@ -210,7 +217,47 @@ section.filme-principal {
     padding-left: 10px;
 }
 
-.carrosel {
-    height: 500px;
-    background-color: #A60815;
+.info-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.25)), url("../img/code-html-5-capa.jpg") no-repeat top center/cover;
+    padding-left: 20px;
+}
+
+.capa-info {
+    flex: 70%;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.filme-info {
+    flex: 30%;
+    background-color: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,1));
+}
+
+.episodios {
+    width: 90%;
+    margin-bottom: 5px;
+    background-color: #ccccccdf;
+}
+
+.titulo-capa {
+    font-size: 4rem;
+    margin: 10% 0;
+}
+
+.capa-info a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.capa-info a:hover {
+    color: white;
+}
+
+.capa-info ul {
+    list-style-type: none;
 }
