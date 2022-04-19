@@ -228,13 +228,13 @@ section.filme-principal {
 }
 
 .capa-info {
-    flex: 70%;
+    flex: 80%;
     line-height: 50px;
     font-size: 30px;
 }
 
 .filme-info {
-    flex: 30%;
+    flex: 20%;
     background-color: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,1));
 }
 
